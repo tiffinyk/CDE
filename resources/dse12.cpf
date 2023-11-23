@@ -1,0 +1,17 @@
+{
+  "dfg_files": [
+    "../applications/arf/arf.json",
+    "../applications/centro-fir/centro-fir.json",
+    "../applications/cosine1/cosine1.json",
+    "../applications/cosine2/cosine2.json",
+    "../applications/ewf/ewf.json",
+    "../applications/fft/fft.json",
+    "../applications/fir/fir.json",
+    "../applications/fir1/fir1.json",
+    "../applications/md/md.json",
+    "../applications/resnet1/resnet1.json",
+    "../applications/resnet2/resnet2.json",
+    "../applications/stencil3d/stencil3d.json"
+  ],
+  "operation_file": "./operations/operations.json"
+}

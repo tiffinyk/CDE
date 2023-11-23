@@ -1,0 +1,7 @@
+{
+  "adg_file": "./ADGs/cgra_adg.json",
+  "dfg_files": [
+    "../applications/arf/arf.json"
+  ],
+  "operation_file": "./operations/operations.json"
+}

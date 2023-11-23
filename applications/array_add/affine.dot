@@ -1,0 +1,9 @@
+Digraph G {
+Input3[opcode=Input, ref_name="A", size="80", offset="0, 0", pattern="4, 20"];
+Input5[opcode=Input, ref_name="B", size="80", offset="0, 0", pattern="4, 20"];
+ADD6[opcode=ADD];
+Output8[opcode=Output, ref_name="C", size="80", offset="0, 0", pattern="4, 20"];
+Input3 -> ADD6[operand = 1 ,color = black, style = bold, label = "Op=1"];
+Input5 -> ADD6[operand = 0 ,color = black, style = bold, label = "Op=0"];
+ADD6 -> Output8[operand = 0 ,color = black, style = bold, label = "Op=0"];
+}
